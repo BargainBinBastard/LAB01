@@ -42,5 +42,6 @@ Beepy deepy doo
 1. Command to clone your GitHub repository:
 
 ```
+git clone git@github.com:BargainBinBastard/LAB01.git
 **write command here so it will look fancy on GitHub**
 ```
