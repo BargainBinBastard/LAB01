@@ -30,20 +30,20 @@ For each, write the command used or answer the question posed.
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
-4.
-5.
-6.
+1. sudo addgroup crew
+2. sudo usermod -a -G crew bpb, sudo usermod -a -G crew ubuntu
+3. sudo chgrp Crew DirA
+4. su bob
+5. touch testfile.txt
+6. because bob was part of the group that owns the folder
 
 ## Part 4 Answers
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
+1. sudo touch sudowho.txt
+2. It has read and writerpermissions for the owner, and read permissions for group and other. Notably, the owner, unlike that of all other files, is "root".
+3. vim sudowho.txt (Gave me a warning that I was "modifying a read-only file", but modification seems to have worked regardless. Strange.)
 
 ## Part 5 Answers
 
