@@ -47,14 +47,17 @@ For each, write the command used or answer the question posed.
 
 ## Part 5 Answers
 
-1. `ssh` command before configuring `config` file:
-2. HostName:
-3. User:
-4. IdentityFile:
+1. `ssh` command before configuring `config` file: ssh -i labuser.pem ubuntu@44.211.102.140
+2. HostName: 44.211.102.140
+3. User: BargainBinBastard
+4. IdentityFile:/home/bargainbinbastard/labuser.pem
 5. `~/.ssh/config` contents:
 
 ```
-Paste your config file entry here
+Host aws
+        HostName 44.211.102.140
+        User ubuntu
+        IdentityFile ~/labuser.pem
 ```
 
-6. `ssh` command after configuring `config` file:
+6. `ssh` command after configuring `config` file: ssh aws
