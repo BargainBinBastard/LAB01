@@ -17,14 +17,14 @@ and push them (sync) with GitHub
 
 For each, write the command used or answer the question posed.
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
+1. sudo adduser bob
+2. /home/bob
+3. no, no permission
+4. su bob (then enter password)
+5. cd bob
+6. yes, he has permission
+7. exit
+8. cd ubuntu
 
 ## Part 3 Answers
 
